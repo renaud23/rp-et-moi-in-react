@@ -40,10 +40,17 @@
 
   &.mobile {
     .icon {
-      height: 22px;
-      width: 22px;
+      display: block;
+      width: 32px;
+      height: 32px;
+      background-color: transparent;
+      z-index: 0;
+      img {
+        display: none;
+      }
     }
     .searchbar-mobile-popper {
+     
       .searchbar-mobile-container {
         width: 80%;
         margin: auto;

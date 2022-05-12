@@ -25,13 +25,14 @@ function SearchbarMobile({ className, onChange, onSearch }) {
   return (
     <div className={classnames("rp-et-moi-searchbar", "mobile", className)}>
       <img
+        className="icon"
         role="bouton"
         aria-controls="modal-searchbar"
         src={loupe}
         alt="recherche"
-        className="icon"
         onTouchEnd={onTouchEnd}
       />
+
       <Popper id="modal-searchbar" className="searchbar-mobile-popper">
         <div className="searchbar-mobile-container">
           <SearchbarDesktop
