@@ -1,0 +1,24 @@
+<svg id="StickyNote" xmlns="http://www.w3.org/2000/svg" width="110" height="97" viewBox="0 0 110 97">
+  <g id="Calque_7" data-name="Calque 7" transform="translate(-62 -48.004)">
+    <rect id="Rectangle_53" data-name="Rectangle 53" width="110" height="97" transform="translate(62 48.004)" fill="#ffca00"/>
+  </g>
+  <g id="Groupe_1634" data-name="Groupe 1634" transform="translate(-119 -1602)">
+    <text id="ICI" transform="translate(124.371 1649.063)" fill="#000091" font-size="28" font-family="Marianne-Bold, Marianne" font-weight="700"><tspan x="0" y="0">ICI</tspan></text>
+    <text id="JE_RÉPONDS_AU_Questionnaire" data-name="JE RÉPONDS AU 
+Questionnaire" transform="translate(124.371 1675.063)" fill="#000091" font-size="12" font-family="Marianne-Bold, Marianne" font-weight="700" letter-spacing="-0.02em"><tspan x="0" y="0">JE RÉPONDS AU </tspan><tspan x="0" y="16">QUESTIONNAIRE</tspan></text>
+    <g id="_illu_ordi" data-name="#illu/ordi" transform="translate(6.776 34.949)">
+      <g id="Groupe_1633" data-name="Groupe 1633" transform="translate(208.275 1572)">
+        <line id="Ligne_11" data-name="Ligne 11" x2="6.597" transform="matrix(0.996, 0.087, -0.087, 0.996, 2.749, 11.994)" fill="none" stroke="#000091" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Ligne_22" data-name="Ligne 22" x2="6.597" transform="matrix(0.819, -0.574, 0.574, 0.819, 2.199, 8.181)" fill="none" stroke="#000091" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Ligne_23" data-name="Ligne 23" x2="6.597" transform="matrix(0.087, -0.996, 0.996, 0.087, -1, 6.571)" fill="none" stroke="#000091" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <g id="Groupe_1209" data-name="Groupe 1209" transform="translate(161 1581.345)">
+        <path id="Rectangle_810" data-name="Rectangle 810" d="M.4,0h35.63a.4.4,0,0,1,.4.4V24.889a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V.4A.4.4,0,0,1,.4,0Z" transform="translate(10.808 0)" fill="#94aad9"/>
+        <rect id="Rectangle_811" data-name="Rectangle 811" width="29.375" height="19.324" transform="translate(14.332 2.782)" fill="#fff"/>
+        <path id="Tracé_967" data-name="Tracé 967" d="M504.816,329.012H468.5l-10.919,6.12H493.9Z" transform="translate(-457.585 -304.224)" fill="#94aad9"/>
+        <rect id="Rectangle_812" data-name="Rectangle 812" width="36.406" height="1.974" transform="translate(0 30.907)" fill="#0f275f"/>
+        <path id="Tracé_968" data-name="Tracé 968" d="M488.926,337.207v-2.076l10.953-6.12v2.272" transform="translate(-452.648 -304.224)" fill="#e9eef8"/>
+      </g>
+    </g>
+  </g>
+</svg>

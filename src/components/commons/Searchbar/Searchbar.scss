@@ -1,0 +1,54 @@
+.rp-et-moi-searchbar {
+  position: relative;
+  &.desktop {
+    height: 32px;
+    width: 100%;
+    border: solid navy 1px;
+    background-color: snow;
+    border-radius: 16px;
+
+    &.focused {
+      border: solid Aquamarine 1px;
+    }
+
+    .recherche {
+      display: block;
+      width: calc(100% - 35px);
+      outline: none;
+      line-height: 30px;
+      font-size: 18px;
+      margin-left: 5px;
+      color: navy;
+      z-index: 1;
+    }
+    .on-search {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      border: none;
+      .icon {
+        height: 22px;
+        width: 22px;
+        margin-top: 4px;
+        margin-right: 5px;
+        background-color: transparent;
+      }
+    }
+  }
+
+  &.mobile {
+    .icon {
+      height: 22px;
+      width: 22px;
+    }
+    .searchbar-mobile-popper {
+      .searchbar-mobile-container {
+        width: 80%;
+        margin: auto;
+        margin-top: 20%;
+      }
+    }
+  }
+}

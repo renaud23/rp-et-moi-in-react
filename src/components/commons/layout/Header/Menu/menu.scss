@@ -1,0 +1,61 @@
+.rp-et-moi-menu {
+  &.desktop {
+    position: absolute;
+    bottom: 5px;
+
+    .menu-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 1200px;
+
+      .menu-item {
+        text-align: center;
+        width: 250px;
+        color: navy;
+
+        &:hover {
+          color: snow;
+        }
+
+        .titre {
+          font-weight: bold;
+          font-size: 18px;
+          text-transform: uppercase;
+        }
+
+        .sous-titre {
+          text-transform: capitalize;
+          font-size: 12px;
+        }
+      }
+
+      .menu-separator {
+        display: block;
+        height: 8px;
+        border-left: solid navy 2px;
+      }
+    }
+  }
+
+  &.mobile {
+    .menu-item {
+      background-color: snow;
+      color: navy;
+      height: 80px;
+      line-height: 80px;
+      padding-left: 12px;
+    }
+
+    .sous-titre {
+      display: none;
+    }
+
+    .menu-separator {
+      display: block;
+      width: 100%;
+      border-bottom: solid navy 2px;
+    }
+  }
+}

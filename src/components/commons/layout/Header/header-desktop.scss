@@ -1,0 +1,31 @@
+.rp-et-moi-layout-header {
+  .bandeau {
+    position: relative;
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .Marianne {
+        width: 30p;
+        height: 30 px;
+      }
+      .logo-insee {
+        --link-underline: none;
+        --link-blank-font: none;
+        --link-blank-content: none;
+
+        img {
+          width: 65px;
+          height: 65px;
+        }
+      }
+
+      .rp-et-moi-layout-header-searchbar {
+        float: right;
+        width: 250px;
+      }
+    }
+  }
+}
