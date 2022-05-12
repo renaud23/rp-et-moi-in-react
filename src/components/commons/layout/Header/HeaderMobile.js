@@ -48,8 +48,14 @@ function ShortHeader({ onSearch, onChange, long }) {
         className={classnames("rp-et-moi-layout-header-searchbar", "mobile")}
       >
         <img className="logo" src={LogoShort} alt="logo recensement" />
-        <Burger />
-        <Searchbar onChange={onChange} mediaType="mobile" onSearch={onSearch} />
+        <div className="icons">
+          <Burger />
+          <Searchbar
+            onChange={onChange}
+            mediaType="mobile"
+            onSearch={onSearch}
+          />
+        </div>
       </div>
     </div>
   );
