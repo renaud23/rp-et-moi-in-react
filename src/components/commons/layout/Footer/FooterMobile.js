@@ -1,5 +1,12 @@
+import FooterQuickLinks from "./FooterQuickLinks";
+import "./footer-mobile.scss";
+
 function FooterMobile() {
-  return <div>Footer Mobile</div>;
+  return (
+    <div className="rp-et-moi-footer">
+      <FooterQuickLinks />
+    </div>
+  );
 }
 
 export default FooterMobile;

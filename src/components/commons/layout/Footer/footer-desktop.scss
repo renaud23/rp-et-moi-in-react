@@ -1,0 +1,26 @@
+.rp-et-moi-footer {
+
+
+  .liens-rapides {
+      height: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    a {
+      all: unset;
+    }
+
+    .lien {
+      color: black; 
+      cursor: pointer;
+    }
+  }
+  .lien-separator {
+    height: 12px;
+    border-left: solid 1px black;
+    margin: 0 12px;
+  }
+}
